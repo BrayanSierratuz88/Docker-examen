@@ -137,9 +137,11 @@ Inicia sesión con el usuario administrador.
 
 
 Desde el panel principal, selecciona “My Courses” → “Create Course”.
-
 ![My Courses](Docker/Imagen3.PNG)
+
 ![Courses Form](Docker/Imagen4.PNG)
+
+
 
 Completa los datos del curso y guarda.
 
@@ -149,8 +151,8 @@ Completa los datos del curso y guarda.
 
 ➕ **Crear un nuevo usuario:**
 [Guía rápida de Moodle](https://docs.moodle.org/400/en/Admin_quick_guide)
-
 ![Users](Docker/Imagen5.PNG)
+
 Ir a *Site administration → Users → Add a new user*
 
 ![Users Form](Docker/Imagen6.PNG)
