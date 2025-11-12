@@ -1,0 +1,41 @@
+services:
+  mariadb:
+    image: bitnami/mariadb:latest
+    environment:
+      - MARIADB_ROOT_PASSWORD=12345
+      - MARIADB_DATABASE=jm_base
+      - MARIADB_USER=jm
+      - MARIADB_PASSWORD=1234
+      - MARIADB_CHARACTER_SET=utf8mb4
+      - MARIADB_COLLATE=utf8mb4_unicode_ci
+    volumes:
+      - 'mariadb_data:/bitnami/mariadb'
+
+  moodle:
+    image: docker.io/bitnamilegacy/moodle:4.3
+    depends_on:
+      - mariadb
+    ports:
+      - '8080:8080'
+      - '8443:8443'
+    environment:
+      - MOODLE_DATABASE_HOST=mariadb
+      - MOODLE_DATABASE_PORT_NUMBER=3306
+      - MOODLE_DATABASE_NAME=jm_base
+      - MOODLE_DATABASE_USER=jm
+      - MOODLE_DATABASE_PASSWORD=1234
+      - MOODLE_USERNAME=admin
+      - MOODLE_PASSWORD="Admin123!"
+      - MOODLE_EMAIL=admin@example.com
+    volumes:
+      - 'moodle_data:/bitnami/moodle'
+      - 'moodledata_data:/bitnami/moodledata'
+
+volumes:
+  mariadb_data:
+    driver: local
+  moodle_data:
+    driver: local
+  moodledata_data:
+    driver: local
+
