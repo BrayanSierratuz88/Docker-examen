@@ -131,7 +131,8 @@ nano /opt/bitnami/php/etc/php.ini
 
 Inicia sesión con el usuario administrador.
 
-![Inicio de Moodle](Docker/Imagen1.PNG)
+![Inicio de Moodle](Docker/Imagen1.png)
+
 ![Inicio de Moodle2](Docker/Imagen2.PNG)
 
 Desde el panel principal, selecciona “My Courses” → “Create Course”.
