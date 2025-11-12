@@ -104,7 +104,7 @@ nano /opt/bitnami/php/etc/php.ini
 🎓 4. Configuración inicial en Moodle
 Inicia sesión con el usuario administrador.  
 ![Inicio de Moodle](Docker/Imagen1.png)
-![Inicio de Moodle2](Docker/Imagen2.png)
+![Inicio de Moodle2](Imagen2.png)
 Desde el panel principal, selecciona “My Courses” → “Create Course”.  
 ![My Courses](Docker/Imagen3.png)
 ![Courses Form](Docker/Imagen4.png)
@@ -149,5 +149,6 @@ Entrar al contenedor:   bash   docker exec -it prueba-moodle-1 bash  
 
 👨‍💻 Autor
 Brayan Sierra   📘 Proyecto: Moodle en Docker con MariaDB   🖥️ Sistema base: Ubuntu Server 22.04   📅 Fecha: 2025-11-12
+
 
 
