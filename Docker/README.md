@@ -1,10 +1,10 @@
-# 🐳 Moodle con Docker Compose
+# Moodle con Docker Compose
 
 Implementación de **Moodle** (plataforma de aprendizaje en línea) usando **Docker Compose** con base de datos **MariaDB**.
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 prueba/ │ ├── docker-compose.yaml   # Archivo principal de configuración ├── php.ini               # Config opcional (si se copia del contenedor) └── README.md             # Documentación del proyecto
 
@@ -102,39 +102,53 @@ Bash
 docker exec -it prueba-moodle-1 bash
 nano /opt/bitnami/php/etc/php.ini
 🎓 4. Configuración inicial en Moodle
-Inicia sesión con el usuario administrador.  
-![Inicio de Moodle](Docker/Imagen1.png)
-![Inicio de Moodle2](Imagen2.png)
-Desde el panel principal, selecciona “My Courses” → “Create Course”.  
-![My Courses](Docker/Imagen3.png)
-![Courses Form](Docker/Imagen4.png)
 
-Completa los datos del curso y guarda.
+Inicia sesión con el usuario administrador.  
+![Inicio de Moodle](Docker/Imagen1.png)  
+![Inicio de Moodle2](Docker/Imagen2.png)  
 
-👥 5. Gestión de usuarios y roles
-➕ Crear un nuevo usuario
-https://docs.moodle.org/400/en/Admin_quick_guide
-![Users](Docker/Imagen5.png)
-Ir a Site administration → Users → Add a new user  
-![Users Form](Docker/Imagen6.png)
+Desde el panel principal, selecciona “My Courses” → “Create Course”.  
+![My Courses](Docker/Imagen3.png)  
+![Courses Form](Docker/Imagen4.png)  
 
-![Users Display](Docker/Imagen7.png)
-Completar los datos y guardar.
+Completa los datos del curso y guarda.  
 
-🧩 Asignar roles
-Entra a Home → Participants  
-![Users Display Role](Docker/Imagen8.png)
-Edita el usuario y asigna un rol (Teacher, Student, etc.)
-![Display Roles](Docker/Imagen9.png)
-📚 6. Inscribir usuarios a un curso
-Accede al curso desde My Courses.  
-![My Course](Docker/Imagen10.png)
-Ve a Participants → Enrol users.  
-![My Course](Docker/Imagen11.png)
-Selecciona los usuarios y define su rol.  
-![My Course](Docker/Imagen12.png)
-Guarda con Enrol users.
+---
 
+👥 5. Gestión de usuarios y roles  
+
+➕ **Crear un nuevo usuario**  
+Guía oficial: [https://docs.moodle.org/400/en/Admin_quick_guide](https://docs.moodle.org/400/en/Admin_quick_guide)  
+
+![Users](Docker/Imagen5.png)  
+Ir a *Site administration → Users → Add a new user*  
+![Users Form](Docker/Imagen6.png)  
+
+![Users Display](Docker/Imagen7.png)  
+Completar los datos y guardar.  
+
+---
+
+🧩 **Asignar roles**  
+Entra a *Home → Participants*  
+![Users Display Role](Docker/Imagen8.png)  
+
+Edita el usuario y asigna un rol (Teacher, Student, etc.)  
+![Display Roles](Docker/Imagen9.png)  
+
+---
+
+📚 **6. Inscribir usuarios a un curso**  
+Accede al curso desde *My Courses*.  
+![My Course](Docker/Imagen10.png)  
+
+Ve a *Participants → Enrol users.*  
+![My Course](Docker/Imagen11.png)  
+
+Selecciona los usuarios y define su rol.  
+![My Course](Docker/Imagen12.png)  
+
+Guarda con *Enrol users*.  
 
 
 docker volume prune
@@ -149,6 +163,7 @@ Entrar al contenedor:   bash   docker exec -it prueba-moodle-1 bash  
 
 👨‍💻 Autor
 Brayan Sierra   📘 Proyecto: Moodle en Docker con MariaDB   🖥️ Sistema base: Ubuntu Server 22.04   📅 Fecha: 2025-11-12
+
 
 
 
