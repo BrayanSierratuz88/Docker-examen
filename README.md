@@ -1,10 +1,10 @@
-# 🐳 Moodle con Docker Compose
+#  Moodle con Docker Compose
 
 Implementación de **Moodle** (plataforma de aprendizaje en línea) usando **Docker Compose** con base de datos **MariaDB**.
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 prueba/ │ ├── docker-compose.yaml   # Archivo principal de configuración ├── php.ini               # Config opcional (si se copia del contenedor) └── README.md             # Documentación del proyecto
 
