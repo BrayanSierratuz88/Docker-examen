@@ -161,24 +161,23 @@ Completar los datos y guardar.
 
 🧩 **Asignar roles:**
 Entra a *Home → Participants*
+![Users Display Role](Docker/Imagen8.PNG)
 
 Edita el usuario y asigna un rol (Teacher, Student, etc.)
-
-![Display Roles](Docker/Imagen9.PNG)
+![Display Roles](Docker/Imagen9.png)
 
 ---
 
 ## 📚 6. Inscribir usuarios a un curso
 
 Accede al curso desde *My Courses*.
+![My Course](Docker/Imagen10.png)
 
-![My Course](Docker/Imagen10.PNG)
 Ve a *Participants → Enrol users.*
+![My Course](Docker/Imagen11.png)
 
-![My Course](Docker/Imagen11.PNG)
 Selecciona los usuarios y define su rol.
-
-![My Course](Docker/Imagen12.PNG)
+![My Course](Docker/Imagen12.png)
 Guarda con **Enrol users**.
 
 ---
