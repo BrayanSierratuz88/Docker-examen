@@ -136,18 +136,7 @@ Ve a Participants → Enrol users.
 ![My Course](Docker/Imagen11.PNG)  
 Selecciona los usuarios y define su rol.  
 ![My Course](Docker/Imagen12.PNG)  
-Guarda con Enrol users.  
+Guarda con Enrol users.
 
-
-docker volume prune
-🧠 Notas útiles
-Logs del docker completo:   bash   docker compose logs  
-
-Logs de Moodle:   bash   docker compose logs -f moodle  
-
-Logs de MariaDB:   bash   docker compose logs -f mariadb  
-
-Entrar al contenedor:   bash   docker exec -it prueba-moodle-1 bash  
-
-👨‍💻 Autor
+Autor
 Brayan Sierra   📘 Proyecto: Moodle en Docker con MariaDB   🖥️ Sistema base: Ubuntu Server 22.04   📅 Fecha: 2025-11-12
