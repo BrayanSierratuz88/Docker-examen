@@ -103,36 +103,36 @@ docker exec -it prueba-moodle-1 bash
 nano /opt/bitnami/php/etc/php.ini
 🎓 4. Configuración inicial en Moodle
 Inicia sesión con el usuario administrador.  
-![Inicio de Moodle](img/imagen1.png)
-![Inicio de Moodle2](docker/imagen2.png)
+![Inicio de Moodle](Docker/imagen1.png)
+![Inicio de Moodle2](Docker/imagen2.png)
 Desde el panel principal, selecciona “My Courses” → “Create Course”.  
-![My Courses](docker/imagen3.png)
-![Courses Form](docker/imagen4.png)
+![My Courses](Docker/imagen3.png)
+![Courses Form](Docker/imagen4.png)
 
 Completa los datos del curso y guarda.
 
 👥 5. Gestión de usuarios y roles
 ➕ Crear un nuevo usuario
 https://docs.moodle.org/400/en/Admin_quick_guide
-![Users](docker/imagen5.png)
+![Users](Docker/imagen5.png)
 Ir a Site administration → Users → Add a new user  
-![Users Form](docker/imagen6.png)
+![Users Form](Docker/imagen6.png)
 
-![Users Display](docker/imagen7.png)
+![Users Display](Docker/imagen7.png)
 Completar los datos y guardar.
 
 🧩 Asignar roles
 Entra a Home → Participants  
-![Users Display Role](docker/imagen8.png)
+![Users Display Role](Docker/imagen8.png)
 Edita el usuario y asigna un rol (Teacher, Student, etc.)
-![Display Roles](docker/imagen9.png)
+![Display Roles](Docker/imagen9.png)
 📚 6. Inscribir usuarios a un curso
 Accede al curso desde My Courses.  
-![My Course](docker/imagen10.png)
+![My Course](Docker/imagen10.png)
 Ve a Participants → Enrol users.  
-![My Course](docker/imagen11.png)
+![My Course](Docker/imagen11.png)
 Selecciona los usuarios y define su rol.  
-![My Course](docker/imagen12.png)
+![My Course](Docker/imagen12.png)
 Guarda con Enrol users.
 
 
