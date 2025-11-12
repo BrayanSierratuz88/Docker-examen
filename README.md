@@ -104,51 +104,40 @@ nano /opt/bitnami/php/etc/php.ini
 🎓 4. Configuración inicial en Moodle
 
 Inicia sesión con el usuario administrador.  
-![Inicio de Moodle](Docker/Imagen1.png)  
-![Inicio de Moodle2](Docker/Imagen2.png)  
+![Inicio de Moodle](Docker/Imagen1.PNG)  
+![Inicio de Moodle2](Docker/Imagen2.PNG)  
 
 Desde el panel principal, selecciona “My Courses” → “Create Course”.  
-![My Courses](Docker/Imagen3.png)  
-![Courses Form](Docker/Imagen4.png)  
+![My Courses](Docker/Imagen3.PNG)  
+![Courses Form](Docker/Imagen4.PNG)  
 
 Completa los datos del curso y guarda.  
 
----
-
 👥 5. Gestión de usuarios y roles  
+➕ Crear un nuevo usuario  
+https://docs.moodle.org/400/en/Admin_quick_guide  
+![Users](Docker/Imagen5.PNG)  
+Ir a Site administration → Users → Add a new user  
+![Users Form](Docker/Imagen6.PNG)  
 
-➕ **Crear un nuevo usuario**  
-Guía oficial: [https://docs.moodle.org/400/en/Admin_quick_guide](https://docs.moodle.org/400/en/Admin_quick_guide)  
-
-![Users](Docker/Imagen5.png)  
-Ir a *Site administration → Users → Add a new user*  
-![Users Form](Docker/Imagen6.png)  
-
-![Users Display](Docker/Imagen7.png)  
+![Users Display](Docker/Imagen7.PNG)  
 Completar los datos y guardar.  
 
----
-
-🧩 **Asignar roles**  
-Entra a *Home → Participants*  
-![Users Display Role](Docker/Imagen8.png)  
-
+🧩 Asignar roles  
+Entra a Home → Participants  
+![Users Display Role](Docker/Imagen8.PNG)  
 Edita el usuario y asigna un rol (Teacher, Student, etc.)  
-![Display Roles](Docker/Imagen9.png)  
+![Display Roles](Docker/Imagen9.PNG)  
 
----
-
-📚 **6. Inscribir usuarios a un curso**  
-Accede al curso desde *My Courses*.  
-![My Course](Docker/Imagen10.png)  
-
-Ve a *Participants → Enrol users.*  
-![My Course](Docker/Imagen11.png)  
-
+📚 6. Inscribir usuarios a un curso  
+Accede al curso desde My Courses.  
+![My Course](Docker/Imagen10.PNG)  
+Ve a Participants → Enrol users.  
+![My Course](Docker/Imagen11.PNG)  
 Selecciona los usuarios y define su rol.  
-![My Course](Docker/Imagen12.png)  
+![My Course](Docker/Imagen12.PNG)  
+Guarda con Enrol users.  
 
-Guarda con *Enrol users*.  
 
 docker volume prune
 🧠 Notas útiles
