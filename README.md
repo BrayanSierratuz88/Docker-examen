@@ -133,7 +133,8 @@ Inicia sesión con el usuario administrador.
 
 ![Inicio de Moodle](Docker/Imagen1.png)
 
-![Inicio de Moodle2](Docker/Imagen2.PNG)
+![Inicio de Moodle](Docker/Imagen2.png)
+
 
 Desde el panel principal, selecciona “My Courses” → “Create Course”.
 
