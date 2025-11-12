@@ -161,7 +161,7 @@ Completar los datos y guardar.
 
 🧩 **Asignar roles:**
 Entra a *Home → Participants*
-![Users Display Role](Docker/Imagen8.PNG)
+![Users Display Role](Docker/Imagen8.png)
 
 Edita el usuario y asigna un rol (Teacher, Student, etc.)
 ![Display Roles](Docker/Imagen9.png)
